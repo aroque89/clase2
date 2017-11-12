@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Prueba</title>
+</head>
+
+<style>
+    /*Selector de etiqueta*/
+    div {
+        font-size: 20px;
+        width: 150px;
+        height: 150px;
+        background-color: green;
+    }
+
+    /*Selector de id*/
+    .hoja {
+        width: 300px;
+        height: 300px;
+        background-color: blue;
+    }
+
+    /*Selector de id*/
+    #prueba {
+        width: 450px;
+        height: 450px;
+        background-color:purple;
+    }
+
+    article section p {
+        color: blue;
+        font-size: 2rem;
+    }
+
+    article{
+        background-color  : rgba(0,0,0,.2 );
+    }
+
+</style>
+
+
+<body>
+
+<!--Darle color verde-->
+<div> <p>Hola soy un parrafo dentro de prueba</p></div>
+<!--Darle color azul mediante una clase-->
+<div class="hoja"></div>
+<!--Darle color morado mediante un id-->
+<div id="prueba"></div>
+
+<!--Modificar el segundo parrafo y cambiar el color a azul-->
+<!--y el tamaño relativo al documento-->
+<article><!--Modificar la etiqueta article y darle un color de fondo negro con trasparencia -->
+    <p>Hola</p>
+    <section>
+        <p>Segundo parrafo</p>
+    </section>
+</article>
+
+
+</body>
+</html>
